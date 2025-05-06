@@ -16,17 +16,19 @@ This repo serves as a collection of Swift code and Xcode projects that track my 
 
 ## ✅ Completed Lessons
 
-### 1. [How to Make an App - Lesson 1](https://www.youtube.com/watch?v=09TeUXjzpKs)
-> Set up Xcode and created a basic Hello World iOS app
+### 1. [How to Make an App - Lesson 1](https://youtu.be/HJDCXdhQaP0?si=njmjY7OTG0hec9ZM)
+> Learned basic boilerplate, how to make text and image in UI. 
 
-### 2. [Intro to Xcode - Lesson 2](https://www.youtube.com/watch?v=F2ojC6TNwws)
-> Explored the Xcode interface and learned how to navigate the IDE
+### 2. [Intro to Xcode - Lesson 2](https://youtu.be/8dVLNxs0kTE?si=Jne02XtYcA268AKD)
+> Explored the Xcode interface and file directory.
 
-### 3. [How to Build a User Interface in Xcode - Lesson 3](https://www.youtube.com/watch?v=H6mkHcZ1cYU)
-> Used Interface Builder and SwiftUI to design UI components
+### 3. [How to Build a User Interface in Xcode - Lesson 3](https://youtu.be/PCvopT3Wnek?si=WiAyLk6uZSMEexlm)
+> Used HStack and VStack to create a card group, explored colors.
 
-### 4. [Starting The War Card Game App - Lesson 4](https://www.youtube.com/watch?v=sWwaWFjG5g0)
-> Began building a simple card game app — laid out UI and logic basics
+### 4. [Starting The War Card Game App - Lessons 4 - 8](https://youtu.be/2Zi-looUuIA?si=Hn7Vqyop8ZGxatRt)
+> Learned how to define functions and variables. 
+> Learned about properties for buttons and nested functions.
+> Created logic for a fully functional War Card Game tutorial
 
 ---
 
@@ -39,9 +41,9 @@ Each lesson has its own folder containing:
 
 ---
 
-## 🚧 In Progress
+## 🚧 On Going Learning
 
-Stay tuned as I continue progressing through the rest of the series!
+Stay tuned as I continue progressing through more tutorials! 
 
 ---
 
