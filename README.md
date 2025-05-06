@@ -25,7 +25,7 @@ This repo serves as a collection of Swift code and Xcode projects that track my 
 ### 3. [How to Build a User Interface in Xcode - Lesson 3](https://youtu.be/PCvopT3Wnek?si=WiAyLk6uZSMEexlm)
 > Used HStack and VStack to create a card group, explored colors.
 
-### 4. [Starting The War Card Game App - Lessons 4 - 8](https://youtu.be/2Zi-looUuIA?si=Hn7Vqyop8ZGxatRt)
+### 4. [The War Card Game App - Lessons 4 - 8](https://youtu.be/2Zi-looUuIA?si=Hn7Vqyop8ZGxatRt)
 > Learned how to define functions and variables. 
 > Learned about properties for buttons and nested functions.
 > Created logic for a fully functional War Card Game tutorial
