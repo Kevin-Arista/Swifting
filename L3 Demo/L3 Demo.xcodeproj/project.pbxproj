@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A81C7C72A68974A003C3194 /* L3_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81C7C62A68974A003C3194 /* L3_DemoApp.swift */; };
+		0A81C7C92A68974A003C3194 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81C7C82A68974A003C3194 /* ContentView.swift */; };
+		0A81C7CB2A68974C003C3194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A81C7CA2A68974C003C3194 /* Assets.xcassets */; };
+		0A81C7CE2A68974C003C3194 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A81C7CD2A68974C003C3194 /* Preview Assets.xcassets */; };
+		0AD340852A6AF20F0037B415 /* WatchL3 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0AD340842A6AF20F0037B415 /* WatchL3 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0AD3408A2A6AF20F0037B415 /* WatchL3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD340892A6AF20F0037B415 /* WatchL3App.swift */; };
+		0AD3408C2A6AF20F0037B415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD3408B2A6AF20F0037B415 /* ContentView.swift */; };
+		0AD3408E2A6AF2100037B415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD3408D2A6AF2100037B415 /* Assets.xcassets */; };
+		0AD340912A6AF2100037B415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD340902A6AF2100037B415 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AD340862A6AF20F0037B415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A81C7BB2A68974A003C3194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD340832A6AF20F0037B415;
+			remoteInfo = "WatchL3 Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0AD340942A6AF2100037B415 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0AD340852A6AF20F0037B415 /* WatchL3 Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A81C7C32A68974A003C3194 /* L3 Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L3 Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A81C7C62A68974A003C3194 /* L3_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L3_DemoApp.swift; sourceTree = "<group>"; };
+		0A81C7C82A68974A003C3194 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A81C7CA2A68974C003C3194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A81C7CD2A68974C003C3194 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AD3407F2A6AF20F0037B415 /* WatchL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchL3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD340842A6AF20F0037B415 /* WatchL3 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchL3 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD340892A6AF20F0037B415 /* WatchL3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchL3App.swift; sourceTree = "<group>"; };
+		0AD3408B2A6AF20F0037B415 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AD3408D2A6AF2100037B415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AD340902A6AF2100037B415 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A81C7C02A68974A003C3194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD340812A6AF20F0037B415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A81C7BA2A68974A003C3194 = {
+			isa = PBXGroup;
+			children = (
+				0A81C7C52A68974A003C3194 /* L3 Demo */,
+				0AD340882A6AF20F0037B415 /* WatchL3 Watch App */,
+				0A81C7C42A68974A003C3194 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A81C7C42A68974A003C3194 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A81C7C32A68974A003C3194 /* L3 Demo.app */,
+				0AD3407F2A6AF20F0037B415 /* WatchL3.app */,
+				0AD340842A6AF20F0037B415 /* WatchL3 Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A81C7C52A68974A003C3194 /* L3 Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0A81C7C62A68974A003C3194 /* L3_DemoApp.swift */,
+				0A81C7C82A68974A003C3194 /* ContentView.swift */,
+				0A81C7CA2A68974C003C3194 /* Assets.xcassets */,
+				0A81C7CC2A68974C003C3194 /* Preview Content */,
+			);
+			path = "L3 Demo";
+			sourceTree = "<group>";
+		};
+		0A81C7CC2A68974C003C3194 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A81C7CD2A68974C003C3194 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0AD340882A6AF20F0037B415 /* WatchL3 Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				0AD340892A6AF20F0037B415 /* WatchL3App.swift */,
+				0AD3408B2A6AF20F0037B415 /* ContentView.swift */,
+				0AD3408D2A6AF2100037B415 /* Assets.xcassets */,
+				0AD3408F2A6AF2100037B415 /* Preview Content */,
+			);
+			path = "WatchL3 Watch App";
+			sourceTree = "<group>";
+		};
+		0AD3408F2A6AF2100037B415 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0AD340902A6AF2100037B415 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A81C7C22A68974A003C3194 /* L3 Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A81C7D12A68974C003C3194 /* Build configuration list for PBXNativeTarget "L3 Demo" */;
+			buildPhases = (
+				0A81C7BF2A68974A003C3194 /* Sources */,
+				0A81C7C02A68974A003C3194 /* Frameworks */,
+				0A81C7C12A68974A003C3194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L3 Demo";
+			productName = "L3 Demo";
+			productReference = 0A81C7C32A68974A003C3194 /* L3 Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AD3407E2A6AF20F0037B415 /* WatchL3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD340982A6AF2100037B415 /* Build configuration list for PBXNativeTarget "WatchL3" */;
+			buildPhases = (
+				0AD3407D2A6AF20F0037B415 /* Resources */,
+				0AD340942A6AF2100037B415 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AD340872A6AF20F0037B415 /* PBXTargetDependency */,
+			);
+			name = WatchL3;
+			productName = WatchL3;
+			productReference = 0AD3407F2A6AF20F0037B415 /* WatchL3.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0AD340832A6AF20F0037B415 /* WatchL3 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD340972A6AF2100037B415 /* Build configuration list for PBXNativeTarget "WatchL3 Watch App" */;
+			buildPhases = (
+				0AD340802A6AF20F0037B415 /* Sources */,
+				0AD340812A6AF20F0037B415 /* Frameworks */,
+				0AD340822A6AF20F0037B415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchL3 Watch App";
+			productName = "WatchL3 Watch App";
+			productReference = 0AD340842A6AF20F0037B415 /* WatchL3 Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A81C7BB2A68974A003C3194 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0A81C7C22A68974A003C3194 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0AD3407E2A6AF20F0037B415 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0AD340832A6AF20F0037B415 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0A81C7BE2A68974A003C3194 /* Build configuration list for PBXProject "L3 Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A81C7BA2A68974A003C3194;
+			productRefGroup = 0A81C7C42A68974A003C3194 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A81C7C22A68974A003C3194 /* L3 Demo */,
+				0AD3407E2A6AF20F0037B415 /* WatchL3 */,
+				0AD340832A6AF20F0037B415 /* WatchL3 Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A81C7C12A68974A003C3194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A81C7CE2A68974C003C3194 /* Preview Assets.xcassets in Resources */,
+				0A81C7CB2A68974C003C3194 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD3407D2A6AF20F0037B415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD340822A6AF20F0037B415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD340912A6AF2100037B415 /* Preview Assets.xcassets in Resources */,
+				0AD3408E2A6AF2100037B415 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A81C7BF2A68974A003C3194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A81C7C92A68974A003C3194 /* ContentView.swift in Sources */,
+				0A81C7C72A68974A003C3194 /* L3_DemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD340802A6AF20F0037B415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD3408C2A6AF20F0037B415 /* ContentView.swift in Sources */,
+				0AD3408A2A6AF20F0037B415 /* WatchL3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AD340872A6AF20F0037B415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AD340832A6AF20F0037B415 /* WatchL3 Watch App */;
+			targetProxy = 0AD340862A6AF20F0037B415 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A81C7CF2A68974C003C3194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A81C7D02A68974C003C3194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A81C7D22A68974C003C3194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"L3 Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = ZSSKU65ZK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kevin.L3-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A81C7D32A68974C003C3194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"L3 Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = ZSSKU65ZK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kevin.L3-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AD340922A6AF2100037B415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZSSKU65ZK3;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchL3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kevin.WatchL3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0AD340932A6AF2100037B415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZSSKU65ZK3;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchL3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kevin.WatchL3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0AD340952A6AF2100037B415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchL3 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZSSKU65ZK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchL3;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kevin.WatchL3.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		0AD340962A6AF2100037B415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchL3 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZSSKU65ZK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchL3;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kevin.WatchL3.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A81C7BE2A68974A003C3194 /* Build configuration list for PBXProject "L3 Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A81C7CF2A68974C003C3194 /* Debug */,
+				0A81C7D02A68974C003C3194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A81C7D12A68974C003C3194 /* Build configuration list for PBXNativeTarget "L3 Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A81C7D22A68974C003C3194 /* Debug */,
+				0A81C7D32A68974C003C3194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD340972A6AF2100037B415 /* Build configuration list for PBXNativeTarget "WatchL3 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD340952A6AF2100037B415 /* Debug */,
+				0AD340962A6AF2100037B415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD340982A6AF2100037B415 /* Build configuration list for PBXNativeTarget "WatchL3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD340922A6AF2100037B415 /* Debug */,
+				0AD340932A6AF2100037B415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A81C7BB2A68974A003C3194 /* Project object */;
+}
